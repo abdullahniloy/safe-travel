@@ -7,7 +7,6 @@ const Home = () => {
         <div className='home-background  ..."'>
         <div>
         <Card></Card>
-      
         </div>
         </div>
         

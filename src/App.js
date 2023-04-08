@@ -8,6 +8,7 @@ import About from './component/About/About';
 import ProposedPlaces from './component/ProposedPlaces/ProposedPlaces';
 import Login from './component/Login/Login';
 import SignUp from './component/SignUp/SignUp';
+import ContactUs from './component/ContactUs/ContactUs';
 
 function App() {
   const router = createBrowserRouter([
@@ -42,7 +43,16 @@ function App() {
         {
           path:'/signup',
           element:<SignUp></SignUp>
-        }
+        },
+        {
+          path:'/booking',
+          element:<Booking></Booking>
+        },
+        {
+          path:'/contactUs',
+          element:<ContactUs></ContactUs>
+
+        },
       ]
 
     }
