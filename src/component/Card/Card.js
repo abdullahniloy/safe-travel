@@ -8,7 +8,7 @@ const Card = () => {
     ///src/Image/Sajek.png  <img src='' alt="Sajek!" />            
 
     <div className='flex'>
-      <div className='flex-1 w-33 my-2'>
+      <div className='flex-1 w-33 my-2 ml-2'>
         <div className="card w-min h-min glass">
           <img src={nepal} alt="nepal!" />
           <div className="card-body">

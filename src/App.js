@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from './component/Main/Main';
@@ -6,6 +6,8 @@ import Home from './component/Home/Home';
 import Booking from './component/Booking/Booking';
 import About from './component/About/About';
 import ProposedPlaces from './component/ProposedPlaces/ProposedPlaces';
+import Login from './component/Login/Login';
+import SignUp from './component/SignUp/SignUp';
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +35,14 @@ function App() {
           path:'/proposedPlaces',
           element:<ProposedPlaces></ProposedPlaces>
         },
+        {
+          path:'/login',
+          element:<Login></Login>
+        },
+        {
+          path:'/signup',
+          element:<SignUp></SignUp>
+        }
       ]
 
     }
